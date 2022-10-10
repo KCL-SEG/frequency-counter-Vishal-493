@@ -2,14 +2,19 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 def frequencies(items):
+    
+    newListOne = []
+    for item in itmes:
+        newItem = str(item)
+        newListOne.append(newItem)
     frequencies = {}
-    newList = []
+    newListTwo = []
     try:
-        for i in items:
-            if str(i) not in newList:
+        for i in newListOne:
+            if si not in newListTwo:
                 newList.append(str(i))
-                frequencyCounter = (items.count(str(i)))
-                frequencies[str(i)] = frequencyCounter
+                frequencyCounter = (newListOne.count(i)
+                frequencies[i] = frequencyCounter
             else:
                 continue
     except TypeError:
