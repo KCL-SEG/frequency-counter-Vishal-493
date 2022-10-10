@@ -4,7 +4,7 @@
 def frequencies(items):
     frequencies = {}
     newList = []
-    if len(items) != 0
+    if len(items) != 0:
         for i in items:
             if str(i) not in newList:
                 newList.append(str(i))
