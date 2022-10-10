@@ -20,3 +20,5 @@ def frequencies(items):
         #frequencies{i:newListOne.count(i)}
     #except TypeError:
       #  print("Incorrect input")
+        
+    return frequencies
