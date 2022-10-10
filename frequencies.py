@@ -11,9 +11,9 @@ def frequencies(items):
     newListTwo = []
     try:
         for i in newListOne:
-            if si not in newListTwo:
-                newList.append(str(i))
-                frequencyCounter = (newListOne.count(i)
+            if i not in newListTwo:
+                newListTwo.append(i)
+                frequencyCounter = (newListOne.count(i))
                 frequencies[i] = frequencyCounter
             else:
                 continue
