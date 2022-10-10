@@ -4,7 +4,7 @@
 def frequencies(items):
     frequencies = {}
     for (i=0; i < len(items); i++):
-        if items[i] not in newList:
+        if str(items[i]) not in newList:
             newList.append(items[i])
             frequencyCounter = (items[i].count())
             frequencies[items[i]] = frequencyCounter
