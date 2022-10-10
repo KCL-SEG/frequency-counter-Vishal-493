@@ -4,7 +4,7 @@
 def frequencies(items):
     frequencies = {}
     newList = []
-    if len(items) != 0:
+    try:
         for i in items:
             if str(i) not in newList:
                 newList.append(str(i))
@@ -12,5 +12,5 @@ def frequencies(items):
                 frequencies[str(i)] = frequencyCounter
             else:
                 continue
-    else:
+    except TypeError:
         print("Incorrect input")
