@@ -5,7 +5,7 @@ def frequencies(items):
     
     newListOne = []
     for item in items:
-        newItem = (str(item)).strip()
+        newItem = (str(item))
         newListOne.append(newItem)
     frequencies = {}
     newListTwo = []
