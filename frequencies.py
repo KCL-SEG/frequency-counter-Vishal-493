@@ -7,6 +7,6 @@ def frequencies(items):
         if str(i) not in newList:
             newList.append(str(i)
             frequencyCounter = (str(i).count())
-            frequencies[str(i] = frequencyCounter
+            frequencies[str(i)] = str(frequencyCounter)
         else:
             continue
